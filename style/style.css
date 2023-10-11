@@ -51,10 +51,10 @@ header{
 .header-info{
     background-color: #F8F200;
     padding: 70px;
-    background:linear-gradient(135deg, transparent 50px, #F8F200 0) top left, 
-    linear-gradient(-40deg, transparent 50px, #F8F200 0) bottom right;
+    clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 83%, 90% 100%, 20% 100%, 0 100%, 0 17%);
     background-size: 100%, 50%;
     background-repeat: no-repeat;
+    position: relative;
 }
 .header-info>h1{
     font-family: "Archangelsk";
@@ -73,4 +73,74 @@ header{
     background: #000000;
     padding: 19px 50px;
     cursor: pointer;
+}
+.title{
+    padding-top: 70px;
+    padding-bottom: 25px;
+    color: #000;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+}
+.text{
+    width: 952px;
+    height: 125px;
+    color: #777;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 188.9%;
+    margin-bottom: 70px;
+}
+.text>span{
+    color: #52BEDC;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 188.889%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.item1{
+    width: 460px;
+    height: 196px;
+    margin-bottom: 32px;
+    
+}
+.item2{
+    width: 788px;
+    height: 424px;
+    
+}
+.photo1:last-child{
+    margin-bottom: 20px;
+    background: url(../img/photo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 196px;
+}
+.photo1{
+    background: url(../img/photo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 196px;
+    margin-bottom: 32px;
+    position: relative;
+    clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 80%, 90% 100%, 20% 100%, 0% 100%, 0% 20%);
+}
+.photo2{
+    background: url(../img/photo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 788px;
+    height: 424px;
+    position: relative;
+    clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 83%, 90% 100%, 20% 100%, 0 100%, 0 17%);
+}
+.box{
+    margin-bottom: 85px;
 }
