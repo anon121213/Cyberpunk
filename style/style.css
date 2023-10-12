@@ -292,13 +292,13 @@ header{
 .info{
     padding: 40px 0;
 }
-.info>span{
+.info>a>span{
     color: #000;
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 400;
 }
-.info>span:first-child{
+.info>a>span:first-child{
     margin-right: 32px;
 }
 .black-bg{
