@@ -206,6 +206,7 @@ header{
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 .buy{
     display: flex;
@@ -262,6 +263,54 @@ header{
     margin-right: 80px;
 }
 .stadia{
-    margin-right: 80px;
-    
+    margin-right: 80px;   
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.logos{
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 13.51px;
+}
+.pictures{
+    background: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 295.991px;
+    height: 73.489px;
+    margin-right: 32px;
+}
+.pictures:last-child{   
+    background: url(../img/CD_Projekt_logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 172.05px;
+    height: 74px;
+}
+.info{
+    padding: 40px 0;
+}
+.info>span{
+    color: #000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+.info>span:first-child{
+    margin-right: 32px;
+}
+.black-bg{
+    background: #000;
+    height: 40px;
+}
+.black-bg>span{
+    display: flex;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    padding-top: 13px;
 }
