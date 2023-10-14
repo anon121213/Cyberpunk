@@ -161,6 +161,7 @@ header{
     display: flex;
     align-items: center;
     margin-left: 42px;
+    padding-bottom: 70px;
 }
 .x{
     padding: 0px 25px;
@@ -244,7 +245,7 @@ header{
     font-weight: 400;
     align-items: center;
     display: flex;
-    padding: 15px;
+    padding: 15px 0;
 }
 .buy-info>ul>li>img{
     padding-right: 10px;
