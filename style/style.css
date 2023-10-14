@@ -253,18 +253,23 @@ header{
 .buy-info>ul>li:last-child{
     padding-bottom: 70px;
 }
-.buylogo{
-    margin-top: 25px;
-    margin-bottom: 77px;
+.buyLogo{
+    display: flex;
+    max-width: 327px;
+    flex-flow: column wrap;
+    align-items: center;
+
 }
-.buy-logo1{
-    margin-bottom: 47px;
+.buy-logo>a{
+    margin-bottom: 40px;
 }
-.pc{
-    margin-right: 80px;
+.buy-logo>a:first-child{
+    padding-right: 79px;
+
 }
-.stadia{
-    margin-right: 80px;   
+.buy-logo>a:nth-child(3){
+    padding-right: 79px;
+
 }
 .foot{
     display: flex;
