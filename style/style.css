@@ -258,14 +258,15 @@ header{
     max-width: 327px;
     flex-flow: column wrap;
     align-items: center;
-
+    padding-top: 25.13px;
+    padding-left: 5px;
+    padding-bottom: 40px;
 }
-.buy-logo>a{
-    margin-bottom: 40px;
+.buy-logo>a>img{
+    padding-bottom: 40px;
 }
 .buy-logo>a:first-child{
     padding-right: 79px;
-
 }
 .buy-logo>a:nth-child(3){
     padding-right: 79px;
@@ -319,4 +320,84 @@ header{
     font-weight: 400;
     justify-content: center;
     padding-top: 13px;
+}
+
+/* Adaptive */
+@media(max-width:1024px){
+    header{
+        background: url("../img/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .container{
+        width: 952px;
+    }
+    .title{
+        width: 620px;
+    }
+    .text{
+        width: 788px;
+        height: 158px;
+        flex-shrink: 0;
+    }
+    .item1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item1>.photo1{
+        width: 460px;
+        height: 196px;
+        flex-shrink: 0;
+        margin-right: 32px;
+    }
+    .item1>:last-child{
+        margin-right: 0;
+    }
+    .item2>.photo2{
+        width: 952px;
+        height: 424px;
+        flex-shrink: 0;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .monitor{
+        width: 460px;
+        height: 317px;
+        flex-shrink: 0;
+    }
+    .it2{
+        width: 460px;
+        padding-bottom: 0;
+    }
+    .logo-company{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+    .logo-company>img{
+        margin-bottom: 25px;
+    }
+    .logo-company:last-child{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .it2>button{
+        margin-bottom: 70px;
+    }
+    .buy-info>h1{
+        width: 624px;
+        padding-top: 70px;
+        padding-bottom: 25px;
+        padding-right: 172px;
+        margin: 0;
+    }
+    .info>a>span:first-child{
+        margin-right: 32px;
+    }
+    .pictures:last-child{
+        margin-right: 0;
+    }
 }
