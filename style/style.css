@@ -22,6 +22,7 @@ header{
     background: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .container{
     max-width: 1280px;
@@ -322,12 +323,12 @@ header{
     padding-top: 13px;
 }
 
-/* Adaptive */
-@media(max-width:1024px){
+
+/* Adaptive1024 */
+
+
+@media(width:1024px){
     header{
-        background: url("../img/header-bg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position-x: center;
     }
     .container{
@@ -398,6 +399,236 @@ header{
         margin-right: 32px;
     }
     .pictures:last-child{
+        margin-right: 0;
+    }
+}
+
+
+/* Adaptive320 */
+
+@media (max-width:320px) {
+    .conteiner{
+        max-width: 12px;
+    }
+    header{
+        background-position-x: center;
+    }
+    .header-info{
+        align-items: center;
+        width: 296px;
+        padding: 30px 38px;
+    }
+    .header-info>h1{
+        width: 295px;
+        color: #000;
+        text-align: center;
+        font-family: "Archangelsk";
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .header-top{
+        justify-content: unset;
+        display: unset;
+        
+    }
+    .social>li{
+        margin-right: 23px;
+    }
+    .social>li:last-child{
+        margin-right: 0;
+    }
+    .logo{
+        padding: 20px 60px 10px 60px;
+        width: 200px;
+        height: 50px;
+    }
+    .social{
+        margin-bottom: 451px;
+    }
+    .photo2{
+        width: 320px;
+        height: 424px;
+        flex-shrink: 0;
+        display: flex;
+    }
+    .text{
+        width: 296px;
+        height: 373px;
+        flex-shrink: 0;
+        color: #777;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    .text>span{
+        color: #52BEDC;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 200%; 
+    }
+    .box{
+        
+        justify-content: unset;
+        display: flex;
+        flex-direction: column;
+    }
+    .photo1{
+        width: 320px;
+        height: 196px;
+    }
+    .photo1:last-child{
+        width: 320px;
+        height: 196px;
+    }
+    .photo2{
+        background-position-x: center;
+    }
+    .item1{
+        width: unset;
+        height: unset;
+    }
+    .item2{
+        width: unset;
+        height: unset;
+    }
+    .monitor{
+        width: 296px;
+        height: 204px;
+    }
+    .logo-company{
+        margin-left: unset;
+    }
+    .hp{
+        height: 44px;
+    }
+    .x{
+        width: 10.551px;
+        height: 49.333px;
+        padding: 0 13px;
+        width: 36px;
+    }
+    .cyberpunk{
+        height: 44px;
+    }
+    .yellow-box{
+        display: unset;
+    }
+    .it2{
+        padding-left: unset;
+    }
+    .it2>h1{
+        width: 296px;
+        color: #000;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .it2>p{
+        width: 296px;
+        height: 245px;
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 200%; 
+    }
+    .it2>ul>li{
+        width: 296px;
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .buy{
+        display: unset;
+        display: flex;
+        flex-direction: column;
+    }
+    .buy-info{
+        height: 587px;
+        padding-left: 12px;
+    }
+    .buy-img{
+        flex-basis: unset;
+        width: 320px;
+        height: 198px;
+    }
+    .buy-info>h1{
+        padding: 40px 0px 25px 0px;
+        width: 296px;
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .buy-info>span{
+        color: #52BEDC;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .buy-info>ul>li{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        
+    }
+    .buy-info>ul>li:nth-child(2){
+        width: 254px;
+    }
+    .buy-info>ul>li:last-child{
+        padding-bottom: 40px;
+    }
+    .buy-info>ul>li>img{
+        width: 24px;
+        height: 24px;
+    }
+    .pc{
+        width: 62px;
+        height: 35.188px;
+    }
+    .xbox{
+        width: 178px;
+        height: 35.188px;
+    }
+    .ps4{
+        width: 168.627px;
+        height: 35.324px;
+    }
+    .stadia{
+        width: 58px;
+        height: 50.268px;
+    }
+    .buy-logo>a:first-child{
+        padding-right: 44px;
+    }
+    .buy-logo>a:nth-child(3) {
+        padding-right: 58px;
+    }
+    .foot{
+        display: unset;
+    }
+    .logos{
+        display: unset;
+    }
+    .pictures:first-child{
+        margin: 40px 49px 25px 49px;       
+        width: 200px;
+        height: 50px;
+    }
+    .pictures:last-child{
+        width: 116.25px;
+        height: 50px;
+        margin: 0 88.75px 25px 88.75px;
+    }
+    .info{
+        
+        background-color: #E6E6E6;       
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .info>a>span{
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .info>a>span:first-child{
         margin-right: 0;
     }
 }
