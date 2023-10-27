@@ -460,6 +460,12 @@ header{
         font-weight: 400;
         line-height: 32px;
     }
+    .title {
+        width: 296px;
+        color: #000;
+        font-size: 30px;
+        font-weight: 400;
+    }
     .text>span{
         color: #52BEDC;
         font-size: 16px;
