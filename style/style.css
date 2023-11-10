@@ -76,7 +76,7 @@ header{
     cursor: pointer;
 }
 .title{
-    padding-top: 70px;
+    padding-top: 110px;
     padding-bottom: 25px;
     color: #000;
     font-family: "Archangelsk";
@@ -282,18 +282,12 @@ header{
     padding-top: 13px;
     padding-bottom: 13.51px;
 }
-.pictures{
-    background: url(../img/logo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.flogo{
     width: 295.991px;
     height: 73.489px;
     margin-right: 32px;
 }
-.pictures:last-child{   
-    background: url(../img/CD_Projekt_logo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.fcdpr{   
     width: 172.05px;
     height: 74px;
 }
@@ -421,6 +415,7 @@ header{
         margin-left: 26px;
     }
     .header-info{
+        margin-bottom: -40px;
         align-items: center;
         width: 320px;
         padding: 30px 0;
@@ -626,17 +621,32 @@ header{
         display: unset;
     }
     .logos{
+        margin: 0 auto;
         display: unset;
     }
-    .pictures:first-child{
-        margin: 40px 49px 25px 49px;       
+    .flogo{
+        margin-top: 40px;
+        margin-bottom: 25px;
+        width: unset;
+        height: unset;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .flogo>img{       
+        margin-right: 0;
         width: 200px;
         height: 50px;
     }
-    .pictures:last-child{
+    .fcdpr{
+        width: unset;
+        display: flex;
+        justify-content: center;
+    }
+    .fcdpr>img{ 
         width: 116.25px;
         height: 50px;
-        margin: 0 88.75px 25px 88.75px;
+        margin-bottom: 25px;
     }
     .info{
         
